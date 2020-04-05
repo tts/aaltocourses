@@ -12,7 +12,7 @@
   link to the label attribute. Also, default node attribute labels are replaced by their string value,
   and nodes are giving the RGB value of the respective School.
 
-  gefxjs.js needs to be tweaked to reflect the string data type of weight.
+  gefxjs.js needs to be tweaked to reflect the string data type of weight, see https://github.com/raphv/gexf-js/issues/49
 
   Run command: java -jar saxon9he.jar graph_from_gephi.gexf transformgraph.xsl > courses_to_show.gexf 
 
