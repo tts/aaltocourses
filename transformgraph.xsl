@@ -2,10 +2,10 @@
 
 <!-- 
 
-  Tuija Sonkkila, 2020-03-18
+  Tuija Sonkkila, 2020-04-05
 
   Data harvested with Python from courses.aalto.fi, built to a directed graph, opened in Gephi for 
-  graph layout and node sizing based on in-degree ranking, and exported as a graph (gexf) file 
+  graph layout (ForceAtlas2) and node sizing based on in-degree ranking. Exported as a graph (gexf) file 
   to be visualized with the JavaScript GEFX Viewer.
   
   Here, the outbound link value is copied to the weight attribute of the edge element, and the inbound
